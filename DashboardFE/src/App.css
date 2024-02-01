@@ -1,3 +1,45 @@
+.app-container {
+  background-color: #ff00e6;
+  color: white;
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+}
+
+.navigation-bar {
+  width: 20px;
+  background-color: #00af0c;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.main-container {
+  background-color: #bd9e04;
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px; /* Adjust this value to match the width of the navigation bar */
+}
+
+.top-bar {
+  background-color: #2b00ff;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  background-color: #ff0000;
+  color: white;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +82,4 @@
 .read-the-docs {
   color: #888;
 }
+*/
